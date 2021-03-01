@@ -20,6 +20,9 @@ module.exports = {
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
+    colors: {
+      gray: '#878C8E',
+    },
     extend: {
       screens: {
         "3xl": "1600px",

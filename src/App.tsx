@@ -4,6 +4,7 @@ import { createBrowserHistory } from "history";
 import { Dark } from "./Dark";
 import { Presets } from "./Presets";
 import { Plugins } from "./Plugins";
+import { IG } from "./IG";
 
 const browserHistory = createBrowserHistory();
 
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/dark" component={Dark} />
         <Route exact path="/plugins" component={Plugins} />
         <Route exact path="/presets" component={Presets} />
+        <Route exact path="/ig" component={IG} />
       </Switch>
     </Router>
   );
