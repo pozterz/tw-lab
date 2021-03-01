@@ -1,6 +1,7 @@
 module.exports = {
   theme: {
     colors: {
+      white: '#fff',
       blue: {
         light: "#85d7ff",
         DEFAULT: "#1fb6ff",
@@ -10,7 +11,7 @@ module.exports = {
         light: "#ff7ce5",
         DEFAULT: "#ff49db",
         dark: "#ff16d1",
-      },
+      }
     },
     extend: {
       flexGrow: {

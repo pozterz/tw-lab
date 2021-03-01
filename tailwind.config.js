@@ -25,6 +25,9 @@ module.exports = {
         "3xl": "1600px",
         ...defaultTheme.screens,
       },
+      colors: {
+        ...defaultTheme.colors
+      }
     },
   },
   variants: {
